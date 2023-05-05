@@ -1,0 +1,16 @@
+{
+  "name": "node-mongo-app",
+  "version": "1.0.0",
+  "description": "Node-Mongo-Course Repetition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express"
+  ],
+  "author": "BaurMus",
+  "license": "ISC"
+}
