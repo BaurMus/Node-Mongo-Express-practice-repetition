@@ -17,9 +17,9 @@ app.set('views', 'views');
 
 async function start() {
   try { 
-    await mongoose.connect('', {
+    await mongoose.connect('mongodb+srv://musilimovb:bake_Js1984@cluster1.ulim0rl.mongodb.net/todos', {
       useNewUrlParser: true,
-      useFindAndModify: false
+      useUnifiedTopology: false
     });
 
     app.listen(PORT, () => {
